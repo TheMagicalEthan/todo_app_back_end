@@ -18,6 +18,21 @@ class TodoController < ApplicationController
             @todo_description = "Meet with the volunteer trainers"
             @todo_pomodoro_estimate = 2
             
+        elsif todo_id == '4'
+            @todo_description = "Order food for Saturday and Sunday"
+            @todo_pomodoro_estimate = 1
+            
+        elsif todo_id == '5'
+            @todo_description = "Check pre-work assignments"
+            @todo_pomodoro_estimate = 2
+            
+        elsif todo_id == '6'
+            @todo_description = "Send workshop location to all the students"
+            @todo_pomodoro_estimate = 1
+            
+        elsif todo_id == '7'
+            @todo_description = "Have a great workshop"
+            @todo_pomodoro_estimate = 0
         end
     end
 end
